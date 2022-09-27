@@ -9,6 +9,7 @@ Http: axios && mock
 Webpack: vue.config.js && enviroment config
 Spec file: Prettier && eslint && editor config && css.rem
 Vue route: routes && permisson
+Vuex： store
 ```
 
 ## Project setup
