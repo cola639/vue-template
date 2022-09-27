@@ -1,16 +1,22 @@
 <template>
   <div class="home">home</div>
 </template>
-
 <script>
-// @ is an alias to /src
-
 export default {
-  name: 'home',
-  components: {}
+  name: 'Home',
+  components: {},
+  data() {
+    return {}
+  },
+  props: {},
+  created() {},
+  mounted() {},
+  beforeDestroy() {},
+  computed: {},
+  watch: {},
+  methods: {}
 }
 </script>
-
 <style lang="scss" scoped>
 .home {
   border: 1px solid #000;
