@@ -7,6 +7,12 @@
 
 export default {
   name: 'home',
-  components: {},
+  components: {}
 }
 </script>
+
+<style lang="scss" scoped>
+.home {
+  border: 1px solid #000;
+}
+</style>
