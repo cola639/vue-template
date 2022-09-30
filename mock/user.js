@@ -1,4 +1,4 @@
-
+// like mysql data
 const tokens = {
   admin: {
     token: 'admin-token'
@@ -49,7 +49,7 @@ module.exports = [
 
   // get user info
   {
-    url: '/vue-admin-template/user/info\.*',
+    url: '/vue-admin-template/user/info.*',
     type: 'get',
     response: config => {
       const { token } = config.query

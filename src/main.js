@@ -4,7 +4,7 @@ import router from '@/router'
 import store from './store/store'
 
 // import ElementUI from 'element-ui'
-import Vant from 'vant'
+// import Vant from 'vant'
 
 import 'normalize.css/normalize.css'
 import '@/styles/index.scss'
