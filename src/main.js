@@ -15,10 +15,10 @@ Vue.config.productionTip = false
 // Vue.use(ElementUI)  // PC
 // Vue.use(Vant);      // H5
 
-// if (process.env.ENV === 'development') {
-//   const { mockXHR } = require('../mock')
-//   mockXHR()
-// }
+if (process.env.NODE_ENV === 'production') {
+  const { mockXHR } = require('../mock')
+  mockXHR()
+}
 
 new Vue({
   router,
