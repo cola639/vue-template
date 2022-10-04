@@ -1,7 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 
-const Home = () => import('@/views/home') // covert to function lazy load
+const Home = () => import('@/views/Home') // covert to function lazy load
+const NotFound = () => import('@/views/404')
 
 Vue.use(Router)
 

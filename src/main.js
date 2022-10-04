@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import App from './App.vue'
 import router from '@/router'
-import store from './store/store'
+import store from '@/store'
 
 // import ElementUI from 'element-ui'
 // import Vant from 'vant'
@@ -15,10 +15,10 @@ Vue.config.productionTip = false
 // Vue.use(ElementUI)  // PC
 // Vue.use(Vant);      // H5
 
-if (process.env.NODE_ENV === 'production') {
-  const { mockXHR } = require('../mock')
-  mockXHR()
-}
+// if (process.env.NODE_ENV === 'production') {
+//   const { mockXHR } = require('../mock')
+//   mockXHR()
+// }
 
 new Vue({
   router,
