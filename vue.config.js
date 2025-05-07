@@ -17,11 +17,18 @@ module.exports = {
     // https: true, //开启 https
     proxy: {
       '/api': {
-        target: 'http://192.168.2.134:9800',
-        changeOrigin: true
-        // pathRewrite: {
-        //   '^/api': ''
-        // }
+        target: 'https://zhflfw.zhsf.com',
+        changeOrigin: true,
+        pathRewrite: {
+          '^/api': ''
+        }
+      },
+      '/zhsf': {
+        target: 'https://zhflfw.zhsf.com', // 代理地址,
+        changeOrigin: true,
+        pathRewrite: {
+          '^/zhsf': ''
+        }
       }
     }
   },

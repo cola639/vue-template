@@ -4,6 +4,7 @@
   </div>
 </template>
 <script>
+import { getYearData, getList, getMsg, getDateMsg } from '@/api/popularLaw'
 export default {
   name: 'Home',
   components: {},
@@ -13,7 +14,13 @@ export default {
   props: {},
   created() {},
   mounted() {
-    console.log(window.screen.width) // view port width
+    // getList()
+    // getList()
+    const data = { itemId: 23 }
+    getYearData(data)
+    // getMsg()
+    // getDateMsg()
+    // console.log(window.screen.width) // view port width
   },
   beforeDestroy() {},
   computed: {},
